@@ -1,0 +1,4 @@
+baseURL = "https://andydavinci.github.io"
+languageCode = 'en-us'
+title = 'Levi-Strauss'
+theme = 'hugo-theme-stack'
