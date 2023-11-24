@@ -106,7 +106,7 @@ function draw_waveform(){
         waveform_button[i].position(pos[i][0],pos[i][1])
         waveform_button[i].size(200,200)
         waveform_button[i].style("font-size", "0px")
-        waveform_button[i].style('background-image', "url(./img/" +  i + ".png)")
+        waveform_button[i].style('background-image', "url(" +  i + ".png)")
         waveform_button[i].mousePressed((function(i) {
             return function() {
               set_waveform(i);
