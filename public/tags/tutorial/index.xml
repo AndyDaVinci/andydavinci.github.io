@@ -24,7 +24,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;點擊畫面右上角輸出圖式，並按「RECORD」。
-&lt;img src=&#34;https://hackmd.io/_uploads/ByU3dNV-T.png&#34;
+&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/00.png&#34;
 	
 	
 	
@@ -35,7 +35,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;選擇品質、錄製時間後，按下錄製
-&lt;img src=&#34;https://hackmd.io/_uploads/SkYadVEWp.png&#34;
+&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/01.png&#34;
 	
 	
 	
@@ -49,7 +49,7 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;將Mode選擇為中間的HTML/CSS/JS
-&lt;img src=&#34;https://hackmd.io/_uploads/Hkg-K4NZa.png&#34;
+&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/02.png&#34;
 	
 	
 	
@@ -70,7 +70,7 @@
 &lt;p&gt;設定
 在function setup()中加入:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-code=javascript&#34; data-lang=&#34;code=javascript&#34;&gt;myP5MovRec = new P5MovRec();
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/HJ8W54EZa.png&#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/03.png&#34;
 	
 	
 	
@@ -101,7 +101,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;匯出圖片&#34;&gt;匯出圖片&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/r1hac4VZT.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://andydavinci.github.io/img/p5.js%e9%8c%84%e5%bd%b1%e6%95%99%e5%ad%b8/04.png&#34;
 	
 	
 	
