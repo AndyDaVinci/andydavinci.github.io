@@ -23,8 +23,8 @@ params:
 
     sidebar:
         compact: false
-        emoji: "🤡"
-        subtitle: "一位不務正業的奇怪大一生"
+        emoji: "🤖"
+        subtitle: "主修藝術的奇怪大一生"
         avatar:
             enabled: true
             local: true
