@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div class="box">
+        <h1 class="title">宜蘭丸山社區地圖<span class="editing">網站內容尚在製作中</span></h1>
+        <div class="container">
+            <div id="mapid"></div>
+            <div class="right">
+                <div id="first">
+                    <h3>關於丸山</h3>
+                    <p>丸山村隸屬冬山鄉，村內有三千多年前的史前文化丸山遺址，及兩百餘年的廟宇保安宮，與靈醫會天主堂。獨立的小山丘是我們的地標，丸山的開發在史載上已有兩百多年，然而實際上在三千多年前就有人類在此生活並留下遺跡，也因為有了丸山遺址，丸山居民對土地的認知與開發有了不一樣的看法、對土地的感情也更為豐富。</p>
+                    <hr/>
+
+                    <h4>相關資源</h4>
+                    <ul class="link_collection">
+                        <li><a href="https://www.lym.gov.tw/ch/education/learning-source/yilan-prehistoric-sites/TSLymContentPage-000003/">蘭陽博物館</a></li>
+                        <li><a href="https://nhsrc.boch.gov.tw/SiteDetail?id=20190307000001">國家考古遺址出土遺物典藏管理系統</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div id="second">
+                    <h3>聯絡資訊</h3>
+                    <ul>
+                        <li>地址：宜蘭縣冬山鄉丸山村港尾路98號</li>
+                        <li>電話：0912345678</li>
+                        <li>電子郵件：ABCDEG@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    
+    <div class="asideMenu">
+        <!-- <button class="btn"><i class="fas fa-chevron-right fa-2x"></i></button> -->
+        <div class="title">詳細介紹</div>
+        <div class="content">
+          <p>1987年6月30日由義大利籍呂若瑟神父利用廢棄的修道院改建創辦，初期成立日間起智組，1990年7月成立重殘養護組，當年並由宜蘭縣政府委託成立國小啟智班，學籍設於順安國小，1991年7月成立職業訓練組後改為生活訓練組，1995年再成立國中啟智班，學籍設於順安國中，1998年成立學前啟智班及宜蘭縣早期療育通報系統及轉介中心。由於冬山鄉公所收回土地，故療養院與啟智中心於2009年遷往三星大隱村。</p>
+          <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="hospital.jpg">
+              </div>
+              <div class="item">
+                <img src="church.jpg">
+              </div>
+              <div class="item">
+                <img src="disability.jpg">
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <div id="footer">
+      參考文獻<br/>製作資訊
+    </div>
+
+    <!-- 網站資訊跳出視窗 -->
+    <div id="myPopup" class="popup">
+      <div class="popup-content">
+          <h2>
+              編輯中
+          </h2>
+          <p>1. 《丸具總動員手冊》(簡建明，2024)</p>
+          <button id="closePopup">
+              Close
+          </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
